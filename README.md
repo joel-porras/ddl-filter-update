@@ -73,14 +73,13 @@ $~$
 
 ## Sample Output Results
 ### DDL Successful Updates
-![Capture2](https://github.com/user-attachments/assets/d0fc6afa-fdfe-4fd8-abe8-993a01765913)
+![Capture2](https://github.com/user-attachments/assets/2a3b6e61-af1c-496d-8f71-8c240e4f3db9)
 
 ### "No changes needed" message
-![Capture3](https://github.com/user-attachments/assets/496ba831-dcc1-4ef6-b7bd-1837da7a7f8f)
+![Capture3](https://github.com/user-attachments/assets/36a82370-53b5-40cc-ae93-8e0956cefaa1)
 
 ### Failed updates on DDL groups exported to CSV 
-![Capture4](https://github.com/user-attachments/assets/7b51ed2b-d977-445d-a949-6e12e4b586f3)
-
+![Capture4](https://github.com/user-attachments/assets/d8793203-f5b7-4de5-a3bf-2c7065fe3843)
 
 
 
