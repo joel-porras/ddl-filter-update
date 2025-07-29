@@ -76,10 +76,9 @@ $~$
 ![Capture2](https://github.com/user-attachments/assets/2a3b6e61-af1c-496d-8f71-8c240e4f3db9)
 
 ### "No changes needed" message
-![Capture3](https://github.com/user-attachments/assets/36a82370-53b5-40cc-ae93-8e0956cefaa1)
+![Capture3](https://github.com/user-attachments/assets/486b9481-c444-4faa-aa13-f28e3bcb9529)
 
 ### Failed updates on DDL groups exported to CSV 
 ![Capture4](https://github.com/user-attachments/assets/d8793203-f5b7-4de5-a3bf-2c7065fe3843)
-
 
 
