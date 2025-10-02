@@ -29,8 +29,6 @@ Reduces manual updates for IT admins and improves consistency in DDL membership 
 
 ### Enter email inside script to connect to Exchange Online
 ```Powershell
-# DDL-filter-update.ps1
-# ----------------------
 #Bulk update of DDL recipient filters to replace Company with Office attribtues
 
 # Connect to Exchange Online
@@ -40,18 +38,19 @@ Connect-ExchangeOline -UserPrincipalName EnterEmailHere@contoso.com
 ### Copy and paste folder path to CSV file created for DDL groups to be updated
 ```Powershell
 # Set the path to your CVS file
-$csvPath = "C:\Users\Example\Path\Update_DDL_Groups.csv"
+$csvPath = "C:\Users\YourUser\Path\Update_DDL_Groups.csv"
 ```
 
 ### Copy and paste folder path to export CSV file to for failed updates on DDL groups
 ```Powershell
 # Set the path to Export failed DDL updates
-$failLogPath = "C:\Users\Example\Path\Failed_DDL_Groups.csv"
+$failLogPath = "C:\Users\YourUser\Path\Failed_DDL_Groups.csv"
 ```
 
 ### Review and update mapping inside the script under `$replacements`
-- Lefts: Company attributes 
-- Right: Office attributes
+Example attributes provided:
+- Left Column: Company attributes
+- Right Column: Office attributes
 ```Powershell
 # Define Company-to-Office replacement mapping
 $replacements = @{
