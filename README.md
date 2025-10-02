@@ -43,7 +43,7 @@ $csvPath = "C:\Users\YourUser\Path\Update_DDL_Groups.csv"
 
 ### Copy and paste folder path to export CSV file to for failed updates on DDL groups
 ```Powershell
-# Set the path to Export failed DDL updates
+# Set the path to export failed DDL updates
 $failLogPath = "C:\Users\YourUser\Path\Failed_DDL_Groups.csv"
 ```
 
@@ -54,9 +54,10 @@ Example attributes provided:
 ```Powershell
 # Define Company-to-Office replacement mapping
 $replacements = @{
-'New York'      =  'New York NY'
-'Pennsylvania'  =  'Philadelphia PA'
-'California'    =  'Los Angeles CA'
+    'New York'        = 'Queens NY'
+    'Pennsylvannia'   = 'Philadelphia PA'
+    'California'      = 'Los Angeles CA'
+    'North Carolina'  = 'Raleigh NC'
 }
 ```
 
@@ -64,7 +65,7 @@ $replacements = @{
 ### Run Powershell Script
 ```Powershell
 cd "C:\Enter\Path\To\Sript\Here"
-.\DDL-Filter-update.ps1
+.\ddl-filter-update.ps1
 ```
 
 $~$
